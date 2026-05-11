@@ -109,6 +109,21 @@
           Cadastrar
         </button>
       </form>
+
+
+     
+      <div class="flex items-center justify-center my-4 text-sm text-gray-600">
+        <span>ou entre com</span>
+      </div>
+
+      <a href="/auth/google"
+        class="flex items-center justify-center bg-green-500 hover:bg-white hover:text-green-500 border hover:border-green-500 text-white font-bold py-3 rounded-lg transition duration-300 w-full">
+        <img
+          src="https://i0.wp.com/res.cloudinary.com/ratracegrad/image/upload/v1672512497/Screenshot_2022-12-31_at_1.48.07_PM_zmev88.png?ssl=1"
+          alt="Google" class="w-6 h-6 mr-2 rounded-full">
+        Entrar com Google
+      </a>
+
       <div class="flex items-center justify-center mt-6 text-sm">
         <span class="text-gray-600">Já tem uma conta?</span>
         <a href="{{ route('user.entrar') }}" class="text-yellow-600 font-semibold ml-2 hover:underline">Entrar</a>
