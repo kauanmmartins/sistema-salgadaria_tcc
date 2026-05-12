@@ -1,120 +1,184 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🥐 Sistema Salgadaria - TCC
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" alt="Laravel" width="300">
 </p>
 
-## About Laravel
+<p align="center">
+  <strong>Um sistema moderno para gerenciar sua salgadaria</strong><br>
+  Desenvolvido com Laravel e tecnologias web modernas
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📋 Índice
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- [🚀 Pré-requisitos](#-pré-requisitos)
+- [📥 Clonando o Repositório](#-clonando-o-repositório)
+- [⚙️ Configuração do Ambiente](#-configuração-do-ambiente)
+- [📦 Instalando Dependências](#-instalando-dependências)
+- [🔧 Comandos Úteis](#-comandos-úteis)
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🚀 Pré-requisitos
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Antes de começar, certifique-se de que você tem:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+> **📌 Pré-requisito importante:** Converse com **Kauan (@kauanmmartins)** para ser adicionado como colaborador do repositório
 
-## Laravel Sponsors
+### Ferramentas Necessárias
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+| Ferramenta | Status | Link |
+|-----------|--------|------|
+| **PHP** | ✅ | [Como instalar](https://www.youtube.com/watch?v=gQ-P0yMBE9U) |
+| **Node.js & npm** | ✅ | [Como instalar](https://www.youtube.com/watch?v=DbJlrkW63XU) |
+| **Composer** | ✅ | [Como instalar](https://www.youtube.com/watch?v=Dimtx-pQPuA) |
 
-### Premium Partners
+### Verificando Instalações
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Abra o **Prompt de Comando** e execute:
 
-## Contributing
+```bash
+php -v        # Verificar PHP
+node -v       # Verificar Node.js
+npm -v        # Verificar npm
+composer -v   # Verificar Composer
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 📥 Clonando o Repositório
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Siga os passos abaixo para clonar o repositório:
 
-## Security Vulnerabilities
+1. **Abra o VS Code**
+2. **Clique em** "Clonar Repositório" (Explorador ou Controle de Código-Fonte)
+3. **Selecione** "Clonar de GitHub"
+4. **Escolha** o repositório que começa com `kauanmmartins`
+5. **Escolha** o local onde deseja salvar o projeto em seu computador
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+✅ **Repositório clonado com sucesso!**
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## ⚙️ Configuração do Ambiente
 
----Informações importantes--
-Passo a Passo da clonagem do repositório á a sua preparação no ambiente:
+### 1. Navegue até a pasta do projeto
 
-Confirme se já tem uma conta no github e conversou comigo(kauan) para que eu te a adiciona-se como colaborador
-No vscode, ao entrar, clique no botão clonar repositório( na aba de explorador ou de Controle de código-fonte)
-Clique em "Clonar de GitHub"
-Clique na opção de repositório que começa com o meu nome (kauanmmartins)
-Escolha seu local de preferência para deixar o arquivo(pasta) do projeto em seu computador
-pronto, agora vc já clonou o repositório devidamente.
+```bash
+cd sistema-salgadaria_tcc
+```
 
-Com o repositório clonado, verifique se já tem os seguintes requisitos em sua máquina:
- php - como baixar(versão para windows: https://www.youtube.com/watch?v=gQ-P0yMBE9U
- node.js e npm - baixando o node.js vc também baixa o npm - como baixar: https://www.youtube.com/watch?v=DbJlrkW63XU
- composer - como baixar: https://www.youtube.com/watch?v=Dimtx-pQPuA
-Se após instalar, se quiser verificar se tá tudo certo, abre o prompt de comando e digita o código:
-sua_instalação -v
-Exemplo: composer -v
+### 2. Configure o arquivo `.env`
 
-tendo tudo baixado certinho, no vscode abra o terminal e digite:
+```bash
+cp .env.example .env
+```
 
-# 📦 Instala as dependências PHP
+### 3. Gere a chave da aplicação
+
+```bash
+php artisan key:generate
+```
+
+---
+
+## 📦 Instalando Dependências
+
+Abra o terminal do VS Code e execute os seguintes comandos:
+
+```bash
+# 📦 Instalar dependências PHP
 composer install
 
-# 📦 Instala as dependências JS/CSS (Vite, Mix, etc)
+# 📦 Instalar dependências JavaScript/CSS (Vite, Mix, etc)
 npm install
+```
 
-pronto, espere baixar tudo e pode mexer tranquilamente
+⏳ **Aguarde a instalação ser concluída...**
 
----Comandos git e do laravel---
-# 🔄 Atualizar seu repositório local com a branch principal (por exemplo, main)
-git pull origin main
+---
 
-# 📡 Buscar atualizações do repositório remoto (sem aplicar)
-git fetch
+## 🔧 Comandos Úteis
 
-# 🔁 Trocar de branch
-git checkout nome-da-branch
+### 🔄 Comandos Git
 
-# 🌿 Criar e trocar para uma nova branch
-git checkout -b nova-branch
+| Comando | Descrição |
+|---------|-----------|
+| `git pull origin main` | Atualizar repositório local com a branch principal |
+| `git fetch` | Buscar atualizações do repositório remoto |
+| `git checkout nome-da-branch` | Trocar de branch |
+| `git checkout -b nova-branch` | Criar e trocar para uma nova branch |
 
-# 🔄 Atualizar e migrar banco de dados (Laravel)
-php artisan migrate
+### 📊 Comandos Laravel
 
-# 🧨 Desfazer todas as migrations (deleta as tabelas criadas)
-php artisan migrate:reset
+| Comando | Descrição |
+|---------|-----------|
+| `php artisan migrate` | Executar as migrations do banco de dados |
+| `php artisan migrate:reset` | Desfazer todas as migrations |
+| `php artisan serve` | Iniciar o servidor local na porta 8000 |
 
-# ▶️ Inicia o projeto no navegador
+### 🎨 Comandos Frontend
+
+| Comando | Descrição |
+|---------|-----------|
+| `npm run dev` | Compilar assets em modo desenvolvimento |
+| `npm run build` | Compilar assets para produção |
+| `npm run watch` | Observar mudanças nos arquivos |
+
+---
+
+## 🚀 Iniciando o Projeto
+
+Com tudo configurado, execute:
+
+```bash
+# Iniciar o servidor Laravel
 php artisan serve
+```
 
+A aplicação estará disponível em: **http://localhost:8000**
 
+---
 
+## 📝 Fluxo de Trabalho Recomendado
 
+1. **Criar uma nova branch** para suas alterações:
+   ```bash
+   git checkout -b feature/minha-funcionalidade
+   ```
+
+2. **Fazer suas alterações** e testar localmente
+
+3. **Fazer commit** com mensagens descritivas:
+   ```bash
+   git add .
+   git commit -m "Descrever a alteração"
+   ```
+
+4. **Enviar para o repositório remoto**:
+   ```bash
+   git push origin feature/minha-funcionalidade
+   ```
+
+5. **Criar um Pull Request** para review
+
+---
+
+## 📞 Suporte
+
+Para dúvidas ou problemas, entre em contato com:
+- **Kauan** (@kauanmmartins) - Proprietário do repositório
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+<p align="center">
+  Made with ❤️ by Kauan Martins
+</p>
