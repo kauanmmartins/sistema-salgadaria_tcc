@@ -180,5 +180,5 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) par
 ---
 
 <p align="center">
-  Made with ❤️ by Kauan Martins
+  Made with ❤️ by Grupo Casa dos Salgados TCC - 2025
 </p>
